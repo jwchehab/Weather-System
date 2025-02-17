@@ -1,0 +1,11 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: provider-service
+
+provider:
+  api-key: ${OW_API_KEY}  # Will be read from environment variable
+  base-url: https://api.openweathermap.org/data/2.5
+

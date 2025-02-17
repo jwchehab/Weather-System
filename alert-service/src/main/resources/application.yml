@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: alert-service
+  task:
+    scheduling:
+      pool:
+        size: 5
+
+alert:
+  notification:
+    retention-days: 30
+  check:
+    interval: 300000 # 5 minutes in milliseconds
