@@ -1,0 +1,9 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: storage-service
+
+storage:
+  base-path: ${USERPROFILE}\Documents\weather-data
